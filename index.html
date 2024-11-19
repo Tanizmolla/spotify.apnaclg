@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/logo.png">
+</head>
+<body>
+    <div class="main">
+        <input type="checkbox" id="ddd" class="dddd2">  
+        <div class="sidebar">
+            <div class="nav">
+                <div class="home">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="search home">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="nav-2">
+                <div class="librery">
+                    <div class="li">
+                        <div class="li-1">
+                            <img src="assets/library_icon.png" alt="">
+                        </div>
+                        <div class="li-2">
+                            <a href="#">Your Library</a>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <a href="#"><i class="fa-solid fa-plus"></i></a>
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="bot-nav">
+                    <div class="bot-nav-1">
+                        <div class="in-bot-nav-1">
+                            <h4>Create Your first Paylist</h4>
+                            <p>It's easy, we'll help you</p>
+                        </div>
+                        <button><a href="#">Create playlist</a></button>
+                    </div>
+                    <div class=" bot-nav-2 bot-nav-1">
+                        <div class="in-bot-nav-1 ">
+                            <h4>Let's find some podcasts to follow</h4>
+                            <p>We'll keep you updated on new episodes</p>
+                        </div>
+                        <button><a href="#">Browse podcasts</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            
+            <header class="h">
+                <div class="nav-upper">
+                    <div class="fb">
+                        <div class="spo1">
+                            <i class="fa-brands fa-spotify"></i>
+                        </div>
+                        <div class="b">
+                            <a href="#" style="text-decoration: none; color: #fff;"><i class="fa-solid fa-angle-left"></i></a>
+                        </div>
+                        <div class="f b remove" style="margin-left: 0.7rem;">
+                            <a href="#" style="text-decoration: none; color: #fff;"><i class="fa-solid fa-angle-right "></i></a>
+                        </div>
+                    </div>
+                    <div class="n-u ">
+                        <div class="spo2">
+                            <label for="ddd">
+                                <i class="fa-solid fa-bars"></i>
+                            </label>
+                        </div>
+                        <div class="n-u-f remove">
+                            <a href="#"><button class="btn-1 ">Explore Premium</button></a>
+                        </div>
+                        <div class="n-u-s ">
+                            <button class=" btn-2 "><i class="fa-regular fa-circle-down"></i>Install App</button>
+                        </div>
+                        <div class="n-u-t">
+                            <a href="#" style="text-decoration: none; color: #fff;"><i class="fa-solid fa-bell"></i></a>
+                        </div>
+                        <div class="n-u-four">
+                            <a href="#" style="text-decoration: none; color: #fff;"><i class="fa-regular fa-user"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="nav-second">
+                <div class="all">
+                    <button type="submit" class="all" style="width: 2.2rem;"><a href="#" style="text-decoration: none; color: #000;">All</a></button>
+                    <button type="submit" class="mu" style="width: 4rem; background-color: #424040;"><a href="#" style="text-decoration: none; color: #fff; ">Music</a></button>
+                    <button type="submit" class="pod" style="width: 5rem; background-color: #424040;"><a href="#"style="text-decoration: none; color: #fff; ">Podcasts</a></button>
+                </div>
+            </div>
+            <div class="mix">
+                <div class="try">
+                    <a href="#">Try something else</a>
+                </div>
+                <span class="see-all">
+                    <a href="#">show all</a>
+                </span>
+            </div>
+            <div class="card-container-f">
+                <div class="card-1">
+                    <img src="assets/card1img.jpeg" class="card-1-img" alt="img">
+                    <div class="card-body">
+                      <h6>Top 50 - Global</h6>
+                      <p>Your daily update of the most played tracks ...</p>
+                    </div>
+                  </div>
+                  <div class="card-2 card-1">
+                    <img src="assets/card5img.jpeg" class="card-1-img" alt="img">
+                    <div class="card-body">
+                      <h6>Top songs - Global</h6>
+                      <p>Top played song in global in this week ...</p>
+                    </div>
+                  </div>
+                  <div class="card-3 card-1">
+                    <img src="assets/card6img.jpeg" class="card-1-img" alt="img">
+                    <div class="card-body">
+                      <h6>Top songs - India</h6>
+                      <p>lorem*100</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="mix-2 mix">
+                <div class="try try-1">
+                    <a href="#">Top bollywood Hits</a>
+                </div>
+                <span class="se-all see-all">
+                    <a href="#">show all</a>
+                </span>
+            </div>
+            <div class="card-container-s ">
+                <div class="card-s-1 card-1">
+                    <img src="assets/card3img.jpeg" class="card-1-img" alt="img">
+                    <div class="card-body">
+                      <h6>90's Hit</h6>
+                      <p>K..K..K..Kiran to T..T..T..Tuffy, the ...</p>
+                    </div>
+                </div>
+
+                <div class="card-s-2 card-1">
+                    <img src="assets/card4img.jpeg" class="card-1-img" alt="img">
+                    <div class="card-body">
+                      <h6>Leo</h6>
+                      <p>Vijay Thalapaty ...</p>
+                    </div>
+                  </div>
+
+                <div class="card-s-3 card-1">
+                    <img src="assets/card2img.jpeg" class="card-1-img" alt="img">
+                    <div class="card-body">
+                      <h6>Darshan Raval Hit</h6>
+                      <p>Best of Darshan Raval in 2k23 ...</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="footer">
+                <div class="foot-ele">
+                    <div class="first-foot-ele">
+                        <ul>
+                            <li>Company</li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">For the record</a></li>
+                        </ul>
+                    </div>
+                    <div class="second-foot-ele">
+                        <ul>
+                            <li>Communities</li>
+                            <li><a href="#">For Artists</a></li>
+                            <li><a href="#">Developers</a></li>
+                            <li><a href="#">Advertising</a></li>
+                            <li><a href="#">Investors</a></li>
+                            <li><a href="#">Vendors</a></li>
+                        </ul>
+                    </div>
+                    <div class="third-foot-ele">
+                        <ul>
+                            <li>Useful links</li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Free Mobile App</a></li>
+                        </ul>
+                    </div>
+                    <div class="forth-foot-ele">
+                        <ul>
+                            <li>Spotify plans</li>
+                            <li><a href="#">Premium Individual</a></li>
+                            <li><a href="#">Premium Duo</a></li>
+                            <li><a href="#">Premium Family</a></li>
+                            <li><a href="#">Premium Student</a></li>
+                            <li><a href="#">Spotify Free</a></li>
+                        </ul>
+                    </div>
+                    <div class="five-foot-ele">
+                        <div class="ficon">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+                        </div>
+                        <div class="ficon">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <div class="ficon">
+                            <a href="#"><i class="fa-brands fa-instagram" style="margin-left: 0.6rem;"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foot"></div>
+            </div>
+            <div class="uf">
+                <div class="under-footer">
+                    <ul>
+                        <li><a href="#" style="margin-left: 0.4rem;">Legal</a></li>
+                        <li><a href="#">Safety & Privacy Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">About Ads</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                    </ul>
+                </div>
+                <div class="copy">
+                    <p>&copy;2024 Spotify AB</p>
+                </div>
+            </div>
+            </div>
+        <div class="music-player">
+            <div class="song-info">
+                <div class="image-of-song">
+                    <a href="#"><img src="assets/album_picture.jpeg" alt=""></a>
+                </div>
+                <div class="name-of-song">
+                    <a href="#" class="song-name">Soulmate</a>
+                    <div class="singer-of-song">
+                        <a href="#" class="A">Arijit Sing , </a>
+                        <a href="#" class="B">Badshah</a>
+                    </div>
+                </div>
+                <div class="add">
+                    <a href="#" class="add1"><i class="fa-solid fa-plus "></i></a>   
+                </div>
+                <div class="fav">
+                    <a href="#"><img src="assets/album_icon1.png" alt=""></a>
+                </div>
+            </div>
+            <div class="playback">
+                <div class="control">
+                    <div class="play-first">
+                        <a href="#"><img src="assets/player_icon1.png" class="pff" alt="mix"></a>
+                        <a href="#"><img src="assets/player_icon2.png" class="pfs" alt="play-backword"></a>
+                    </div>
+                    <div class="play-pause">
+                        <a href="#"><img src="assets/player_icon3.png" class="ppp" alt="play-pause"></a>
+                    </div>
+                    <div class="play-last">
+                        <a href="#"><img src="assets/player_icon4.png" class="plf" alt="Play-forword"></a>
+                        <a href="#"><img src="assets/player_icon5.png" class="pls" alt="last-control"></a>
+                    </div>
+                </div>
+                <div class="progressbar">
+                    <p style="margin-right: 0rem;">0:00</p>
+                    <div class="line"></div>
+                    <p>4.58</p>
+                </div>
+            </div>
+
+            <div class="play-control">
+                    <div class="last-first k">
+                        <a href="#"><img src="assets/controls_icon1.png" alt="controls_icon1"></a>
+                    </div>
+                    <div class="last-second last-first k">
+                        <a href="#"><img src="assets/controld_icon2.png" alt="controls_icon2"></a>
+                    </div>
+                    <div class="last-third k"><a href="#"><img src="assets/controls_icon3.png" alt="controls_icon3"></a>
+                    </div>
+                    <div class="last-fourth k">
+                        <a href="#"><img src="assets/controls_icon4.png" alt="controls_icon4"></a>
+                    </div>
+                    <div class="last-fifth last-second k" style="    margin-left: 1.4rem;">
+                        <a href="#"><img src="assets/controls_icon5.png" alt="controls_icon5"></a>
+                    </div>
+                    <div class="sound k"></div>
+                    <div class="last-six last-first k">
+                        <a href="#"><img src="assets/album_icon2.png" alt=""></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
